@@ -4,7 +4,7 @@ Allows you to make a first part of Push Swap correction from 42 Cursus
 Made from various sources available on github
 
 ## Prerequisites:
-To run this script you need ruby, python3
+To run this script you need ruby, python3.7
 
 ## How launch it
 Copy all files in your Push_swap directory
