@@ -11,6 +11,10 @@ Copy all files in your Push_swap directory
 
 On bash, run the following command:
 
-For linux :`bash run_Linux.sh` 
+For linux :```sh
+mv linux/* ..
+bash run_Linux.sh``` 
 
-For MACOS :`bash run_MAC.sh`
+For MACOS :```sh
+mv mac/* ..
+bash run_MAC.sh```
