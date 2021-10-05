@@ -7,18 +7,19 @@ Made from various sources available on github
 To run this script you need ruby, python3.7
 
 ## How launch it
-Copy all files in your Push_swap directory
 
 On bash, run the following command:
 
 For linux :
-```bash
-mv linux/* ..
+```sh
+mv PushSwap_tester/linux/* .
+rm -rf PushSwap_tester
 bash run_Linux.sh
 ```
 
 For MACOS :
-```bash
-mv mac/* ..
+```sh
+mv PushSwap_tester/mac/* .
+rm -rf PushSwap_tester
 bash run_MAC.sh
 ```
