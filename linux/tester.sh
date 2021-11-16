@@ -42,7 +42,7 @@ function testList {
     printf %.0f "$X"
     printf "\n${COLOR_RESET}Max : ${COLOR_YELLOW}$max ${COLOR_RESET}| Min : ${COLOR_YELLOW}$min${COLOR_RESET}"
     echo
-    arg=`ruby -e "puts (1..$1).to_a.shuffle.join(' ')"`; ./push_swap $arg | ./checker_Mac $arg
+    arg=`ruby -e "puts (1..$1).to_a.shuffle.join(' ')"`; ./push_swap $arg | ./checker_linux $arg
 }
 
 for arg in $@
