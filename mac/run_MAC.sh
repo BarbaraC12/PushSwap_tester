@@ -5,6 +5,7 @@ echo "PART 2: Error management"
 ./push_swap 5 2 6 3 1 5
 ./push_swap 5 0 6 3 1 0008
 ./push_swap 1 2147483648 3
+./push_swap 1 18446744073709551615 3
 ./push_swap
 echo
 echo "PART 3: Identity test"
